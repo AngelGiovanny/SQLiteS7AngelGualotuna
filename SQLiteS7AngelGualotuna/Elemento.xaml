@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteS7AngelGualotuna.Elemento">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txtNombre" Placeholder="Nombre"/>
+            <Entry x:Name="txtUsuario" Placeholder="Usuario"/>
+            <Entry x:Name="txtContrasenia" Placeholder="Contrasenia" IsPassword="True"/>
+            <Button x:Name="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked" Background="LawnGreen"/>
+            <Button x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked" Background="Red"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
